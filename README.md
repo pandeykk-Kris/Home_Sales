@@ -22,12 +22,14 @@ What is the average price of a home for each year the home was built, that has t
 What is the average price of a home per "view" rating having an average home price greater than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
 #
 ![image](https://github.com/user-attachments/assets/4e0ccd5c-01d2-453d-bc2f-fc6660773564)
+#
 on second run, the runtime was 0.64 seconds.
 
 
 Using the cached data, run the last query that calculates the average price of a home per "view" rating having an average home price greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
 #
 ![image](https://github.com/user-attachments/assets/016f73a9-7aef-4593-89a6-2452022c8d7d)
+#
 on second run from cached table data, the runtime was 0.3644 seconds, significant improvment from 0.6412 seconds without caching the data.
 
 Partition by the "date_built" field on the formatted parquet home sales data.
